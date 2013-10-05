@@ -21,6 +21,7 @@
     UINavigationBar *navBar = self.navigationController.navigationBar;
     [navBar setBarTintColor:MAIN_COLOR];
     [navBar setTintColor:MAIN_COLOR];
+    [navBar setTra]
 }
 
 - (void)didReceiveMemoryWarning
