@@ -17,7 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    UINavigationBar *navBar = self.navigationController.navigationBar;
+    [navBar setBarTintColor:MAIN_COLOR];
+    [navBar setTintColor:MAIN_COLOR];
 }
 
 - (void)didReceiveMemoryWarning
